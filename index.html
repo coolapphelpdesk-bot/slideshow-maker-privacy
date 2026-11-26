@@ -102,7 +102,7 @@
   <table>
     <thead><tr><th>Permission</th><th>Reason</th><th>When asked</th></tr></thead>
     <tbody>
-      <tr><td><code>READ_MEDIA_VIDEO</code>, <code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_AUDIO</code>, <code>READ_MEDIA_VISUAL_USER_SELECTED</code> (Android 12 and older: <code>READ_EXTERNAL_STORAGE</code>)</td><td>List your photos and music in the optional in-app picker so you can choose several at once. The list is shown on your device only.</td><td>Only if you turn on the in-app picker; the app works fully without it</td></tr>
+      <tr><td><code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_AUDIO</code>, <code>READ_MEDIA_VISUAL_USER_SELECTED</code> (Android 12 and older: <code>READ_EXTERNAL_STORAGE</code>)</td><td>List your photos and music in the optional in-app picker so you can choose several at once. The list is shown on your device only.</td><td>Only if you turn on the in-app picker; the app works fully without it</td></tr>
       <tr><td><code>POST_NOTIFICATIONS</code></td><td>Show the progress of a video being made, with a Cancel button, while you use other apps</td><td>Before you make your first video (Android 13+); it works either way</td></tr>
       <tr><td><code>FOREGROUND_SERVICE</code> + <code>FOREGROUND_SERVICE_DATA_SYNC</code>, <code>WAKE_LOCK</code></td><td>Keep long videos rendering reliably in the background</td><td>Auto-granted; used while a video is being made</td></tr>
       <tr><td><code>INTERNET</code> + <code>ACCESS_NETWORK_STATE</code></td><td>Send feedback you choose to send; advertising if it is switched on in future</td><td>Auto-granted (normal permission)</td></tr>
